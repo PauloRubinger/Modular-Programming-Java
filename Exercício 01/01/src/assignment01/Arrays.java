@@ -2,13 +2,13 @@ package assignment01;
 
 import java.util.Scanner;
 
-public class Array {
+public class Arrays {
 
     private int arr[];
     private int arrayAux[];
     private int size;
 
-    public Array(int size) {
+    public Arrays(int size) {
         arr = new int[size];
         arrayAux = new int[size];
         this.size = size;
@@ -29,7 +29,7 @@ public class Array {
 
     public void printArray() {
         
-        System.out.print("[ ");
+        System.out.print("O vetor invertido é: [ ");
         
         for (int i = 0; i < size; i++) {
             System.out.print(arrayAux[i] + " ");
