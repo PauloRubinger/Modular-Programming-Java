@@ -1,4 +1,4 @@
-package sbbd.Coleções;
+package sbbd.colecoes;
 
 import java.util.ArrayList;
 

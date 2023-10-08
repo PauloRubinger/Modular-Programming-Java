@@ -62,4 +62,20 @@ public class SessaoTecnica {
     public Time getHoraFim() {
         return sesTec_horaFim;
     }
+
+        public Date getSesTec_date() {
+        return sesTec_date;
+    }
+
+    public void setSesTec_date(Date sesTec_date) {
+        this.sesTec_date = sesTec_date;
+    }
+
+    public Professor getSesTec_mediador() {
+        return sesTec_mediador;
+    }
+
+    public void setSesTec_mediador(Professor sesTec_mediador) {
+        this.sesTec_mediador = sesTec_mediador;
+    }
 }

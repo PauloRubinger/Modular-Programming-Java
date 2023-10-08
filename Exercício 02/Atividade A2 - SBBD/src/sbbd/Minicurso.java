@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Minicurso {
+
     private Integer minic_id;
     private String minic_nome;
     private Date minic_date;
@@ -63,4 +64,19 @@ public class Minicurso {
         return minic_horaFim;
     }
 
+    public Date getMinic_date() {
+        return minic_date;
+    }
+
+    public void setMinic_date(Date minic_date) {
+        this.minic_date = minic_date;
+    }
+
+    public Profissional getMinic_ministrante() {
+        return minic_ministrante;
+    }
+
+    public void setMinic_ministrante(Profissional minic_ministrante) {
+        this.minic_ministrante = minic_ministrante;
+    }
 }
