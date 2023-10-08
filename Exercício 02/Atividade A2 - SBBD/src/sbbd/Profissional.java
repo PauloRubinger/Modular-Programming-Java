@@ -1,5 +1,5 @@
 package sbbd;
 
-public class Profissional {
+public class Profissional extends Pessoa {
     
 }

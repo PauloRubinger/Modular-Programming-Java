@@ -68,9 +68,4 @@ public class Empresa extends Instituicao {
     public void setMinicursos(ArrayList<Minicurso> minicursos) {
         this.minicursos = minicursos;
     }
-
-    @Override
-    public Minicurso oferecerMinicurso() {
-        return new Minicurso();
-    }
 }

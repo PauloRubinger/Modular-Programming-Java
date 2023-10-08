@@ -56,6 +56,4 @@ public abstract class Instituicao {
         this.numeroDeFuncionarios = numeroDeFuncionarios;
     }
 
-    public abstract Minicurso oferecerMinicurso();
-
 }

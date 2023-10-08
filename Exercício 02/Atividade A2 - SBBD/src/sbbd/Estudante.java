@@ -1,5 +1,5 @@
 package sbbd;
 
-public class Estudante {
+public class Estudante extends Pessoa{
     
 }

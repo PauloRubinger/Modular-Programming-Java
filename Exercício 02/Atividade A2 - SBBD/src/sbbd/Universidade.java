@@ -52,9 +52,4 @@ public class Universidade extends Instituicao {
         this.minicursos = minicursos;
     }
 
-    @Override
-    public Minicurso oferecerMinicurso() {
-        return new Minicurso();
-    }
-
 }
